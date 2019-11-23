@@ -31,8 +31,8 @@ Edit config.js with your hotel link and name
 
 ## Creators
 
-Wypalacz#0001 – [@eichnner](https://twitter.com/eichnner)
+Wypalacz#5909 – [@eichnner](https://twitter.com/eichnner)
 
 Djinn#0001 - [@edjinnn](https://twitter.com/djiin)
 
-[https://github.com/WypalaczRun/fenixbot](https://github.com/dbader/)
+[https://github.com/WypalaczRun/habbobot](https://github.com/WypalaczRun/habbobot)
