@@ -8,6 +8,10 @@ Windows:
 ```sh
 Download NodeJs here: https://nodejs.org/en/download/
 npm install discord.js --save
+npm i isgd
+npm i canvas
+npm i mysql
+
 node index.js
 ```
 ## Configuration
