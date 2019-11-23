@@ -10,6 +10,12 @@ Download NodeJs here: https://nodejs.org/en/download/
 npm install discord.js --save
 node index.js
 ```
+## Configuration
+
+```sh
+Edit config.js with your hotel link and name
+
+```
 
 ## Release History
 
