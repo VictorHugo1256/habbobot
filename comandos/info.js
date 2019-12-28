@@ -3,8 +3,6 @@ const { RichEmbed } = require('discord.js');
 exports.run = async (client, message, args) => {
     let usuario = args[0]
     if(!usuario) return message.reply(`Você precisa colocar um nome de usuário válido!`)
-
-    if(client.config.emulador.plus){
     client.db.query(`SELECT username, rank, credits, look, activity_points, vip_points, motto, online FROM users WHERE username = '${usuario}'`, async (err, rows) =>{
         if(!rows[0]) return message.reply(`Não encontrei ninguém com esse nome!`)
         const plus = new RichEmbed()
@@ -21,7 +19,6 @@ exports.run = async (client, message, args) => {
 		.addField("Rank:" , rows[0].rank ==  1 ? 'Usuário' : 'Staff', true)
         return message.channel.send(plus);
         });  
-    }
 }
 
 exports.config = {
