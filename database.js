@@ -23,6 +23,11 @@ module.exports = class MysqlManager{
             console.log("[MYSQL] Ping!");
             this.reconectar();
         }, 4 * 60 * 60 * 1000);
+		
+		setInterval(() => {
+        this.db.query('SELECT 1', (err, rows) => {
+        if (err) throw err;
+        }); }, 1000);
     }
     reconectar(){
         this.db.destroy();
